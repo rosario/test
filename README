@@ -1,0 +1,30 @@
+
+
+1) A brief description of the functionality your solution provides to the users
+
+Columns can be sorted. Search box provided.
+
+2) How to open your solution in a browser and use it with a sample dataset
+
+Open index.html in a browser
+
+3) How to run any tests you have included
+
+No tests
+
+4) Reasons/justification for each library or framework you decide to use, if any
+
+From the spec: "You may use any UI libraries and frameworks".
+
+Jquery DataTable is a very popular solution to display/search on tabular data
+
+5) Reasons for your choice of data format and protocol for the API. If you chose to use a simpler protocol
+than you would in production, please also explain the protocol you would use for this problem in production
+
+Since it's a test, there is no protocol defined. In production a REST server can provide data via JSON on http.
+The same library can be used to query data via AJAX.
+
+6) Assumptions you made, if any, due to unclear requirements
+
+From the spec: "Please implement the solution as a web-based UI. You may use any UI libraries and frameworks"
+Since it's quite broad I assumed I could use ANY library, hence choosing DataTable.
